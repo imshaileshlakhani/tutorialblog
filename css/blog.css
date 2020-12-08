@@ -1,0 +1,100 @@
+ /* Remove the navbar's default margin-bottom and rounded borders */
+ .logo{
+    font-family: Nerko One;
+}
+.navlink1{
+   font-family: Helvetica;
+   letter-spacing: 1px;
+}
+.navlink1:hover
+{
+   background-color: #000;
+   color:#fff;
+}
+.navlink1:focus 
+{
+   background-color:#00cc00;
+   color: #fff;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+    height: 1000px
+}
+
+/* Set gray background color and 100% height */
+.sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+}
+
+.cet1 {
+    margin-bottom: 20px;
+    height: 100%;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {
+        height: auto;
+    }
+}
+/* title and some showcase content*/
+.card-body > p{
+   margin:20px 0;
+   font-size:30px;
+   color:#212529;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.card-body h5{
+   font-weight:500;
+   font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif
+}
+/* view like comment*/
+.vlc a:hover{
+   text-decoration: none;
+}
+
+/*footer*/
+p .link1:hover{
+    text-decoration: none;
+}
+/* Social meadia icon in footer */
+.btn1 i , .btn2 i , .btn3 i , .btn5 i{
+   margin:0px 20px;
+   background:#1e272e;
+   color:#d2dae2;
+   width:60px;
+   height:60px;
+   border-radius:50%;
+   line-height:60px;
+   text-align:center;
+   transition:0.5s;
+}
+.btn1 i:hover{
+   color:#3c40c6;
+   box-shadow:0 0 20px #3c40c6,0 0 20px #3c40c6,0 0 20px #3c40c6;
+   transform:rotate(360deg);
+}
+.btn2 i:hover{
+   color:#ef5777;
+   box-shadow:0 0 20px #ef5777,0 0 20px #ef5777,0 0 20px #ef5777;
+   transform:rotate(360deg);
+}
+.btn3 i:hover{
+   color:#0fbcf9;
+   box-shadow:0 0 20px #0fbcf9,0 0 20px #0fbcf9,0 0 20px #0fbcf9;
+   transform:rotate(360deg);
+}
+.btn5 i:hover{
+   color:#1e90ff;
+   box-shadow:0 0 20px #1e90ff,0 0 20px #1e90ff,0 0 20px #1e90ff;
+   transform:rotate(360deg);
+}
+
+   

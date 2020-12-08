@@ -1,0 +1,151 @@
+ /* Remove the navbar's default margin-bottom and rounded borders */
+ .logo{
+     font-family: Nerko One;
+ }
+/*nav{
+    background-color: aqua;
+}
+.collapse{
+    position: absolute;
+    height: 100%;
+    background-color: rgb(95, 28, 204);
+}*/
+.navlink1{
+    font-family: Helvetica;
+    letter-spacing: 1px;
+}
+.navlink1:hover
+{
+    background-color: #000;
+    color:#fff;
+}
+.navlink1:focus 
+{
+    background-color:#00cc00;
+    color: #fff;
+}
+
+ /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+ .row.content {
+     height: 2350px
+ }
+
+ /* Set gray background color and 100% height */
+ .sidenav {
+     padding-top: 20px;
+     background-color: #f1f1f1;
+     height: 100%;
+ }
+ 
+ .cet1 {
+     margin-bottom: 20px;
+     height: 100%;
+ }
+ 
+ /* On small screens, set height to 'auto' for sidenav and grid */
+ @media screen and (max-width: 767px) {
+     .sidenav {
+         height: auto;
+         padding: 15px;
+     }
+     .row.content {
+         height: auto;
+     }
+ }
+ 
+ /*card view*/
+ .inner {
+     overflow: hidden;
+     box-shadow: 0 0 5px gray;
+ }
+ 
+ .inner img {
+     transition: all 1.5s ease;
+ }
+ 
+ .inner:hover img {
+     transform: scale(1.5);
+ }
+ 
+ .bt1 {
+     overflow: hidden;
+     padding-bottom: 20px;
+     box-shadow: 0 0 5px gray;
+     padding: 0px 5px 0px 5px;
+ }
+ 
+ .bt1:hover {
+     box-shadow: 0 0 15px gray;
+ }
+ 
+ .cbtn:hover {
+     box-shadow: 0 0 5px blue;
+ }
+
+ /* More button*/
+ .mbtn {
+     font-size: 14px;
+     font-weight: 800;
+     padding: 15px 25px;
+     letter-spacing: 1px;
+     text-transform: uppercase;
+     border-radius: 0;
+     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+ }
+ 
+ .mbtn {
+     background-color: #0085A1;
+     border-color: #0085A1;
+ }
+ 
+ .mbtn:hover,
+ .mbtn:focus,
+ .mbtn:active {
+     color: #fff;
+     box-shadow: 0 0 5px blue !important;
+     border-color: #00657b !important;
+ }
+ 
+ .mbtn {
+     font-size: 16px;
+     padding: 25px 35px;
+ }
+
+ /*footer*/
+ p .link1:hover{
+     text-decoration: none;
+ }
+ /* Social meadia icon in footer */
+ .btn1 i , .btn2 i , .btn3 i , .btn5 i{
+    margin:0px 20px;
+    background:#1e272e;
+    color:#d2dae2;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    line-height:60px;
+    text-align:center;
+    transition:0.5s;
+}
+.btn1 i:hover{
+    color:#3c40c6;
+    box-shadow:0 0 20px #3c40c6,0 0 20px #3c40c6,0 0 20px #3c40c6;
+    transform:rotate(360deg);
+}
+.btn2 i:hover{
+    color:#ef5777;
+    box-shadow:0 0 20px #ef5777,0 0 20px #ef5777,0 0 20px #ef5777;
+    transform:rotate(360deg);
+}
+.btn3 i:hover{
+    color:#0fbcf9;
+    box-shadow:0 0 20px #0fbcf9,0 0 20px #0fbcf9,0 0 20px #0fbcf9;
+    transform:rotate(360deg);
+}
+.btn5 i:hover{
+    color:#1e90ff;
+    box-shadow:0 0 20px #1e90ff,0 0 20px #1e90ff,0 0 20px #1e90ff;
+    transform:rotate(360deg);
+}
+
+    
