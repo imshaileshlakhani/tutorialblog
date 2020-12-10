@@ -27,7 +27,7 @@
 
  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
  .row.content {
-     height: 2350px
+     height: 3000px
  }
 
  /* Set gray background color and 100% height */
@@ -72,6 +72,7 @@
      padding-bottom: 20px;
      box-shadow: 0 0 5px gray;
      padding: 0px 5px 0px 5px;
+     border: 1px solid  gray;
  }
  
  .bt1:hover {
@@ -89,13 +90,10 @@
      padding: 15px 25px;
      letter-spacing: 1px;
      text-transform: uppercase;
-     border-radius: 0;
-     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
- }
- 
- .mbtn {
      background-color: #0085A1;
      border-color: #0085A1;
+     border-radius: 0;
+     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
  }
  
  .mbtn:hover,
@@ -106,10 +104,27 @@
      border-color: #00657b !important;
  }
  
- .mbtn {
-     font-size: 16px;
-     padding: 25px 35px;
+ /* daily news card view slider*/
+
+ .slide2 .carousel-control-prev-icon,
+ .slide2 .carousel-control-next-icon {
+     padding: 20px 20px;
+     background-color: blue;
+     color: black;
+     border-radius: 50%;
  }
+
+ .slide2 .carousel-control-prev {
+     padding-right: 255px;
+     padding-bottom: 25px;
+ }
+
+ .slide2 .carousel-control-next {
+     padding-left: 190px;
+     padding-bottom: 25px;
+ }
+
+ /* daily news card view slider*/
 
  /*footer*/
  p .link1:hover{
